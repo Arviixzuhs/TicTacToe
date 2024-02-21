@@ -30,8 +30,6 @@ const handleCreateNewGame = async (socket: any, data: any) => {
 
 /* Funcion para entrar a una sala que ya existe */
 const handleJoinAnExistingGame = async (socket: any, data: any) => {
-  const room = rooms.find((item) => item.roomId == data.roomId)
-
   if (!data.name || data.name.trim() == '') {
     return socket.emit('api:roomLogInfo', { description: 'Debes ingresar tu nombre' })
   }
@@ -39,6 +37,8 @@ const handleJoinAnExistingGame = async (socket: any, data: any) => {
   if (!data.roomId || data.roomId.trim() == '') {
     return socket.emit('api:roomLogInfo', { description: 'Debes ingresar la id de una sala' })
   }
+
+  const room = rooms.find((item) => item.roomId == data.roomId)
 
   if (room) {
     if (room.users.length == 2) {
