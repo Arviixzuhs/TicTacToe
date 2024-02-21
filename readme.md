@@ -16,8 +16,5 @@ npm i
 ```bash
 npm run dev
 ```
-
-## Authors
-
-- [@Arviixzuh](https://github.com/IkarosKurtz)
-- [@IkarosKurtz](https://github.com/IkarosKurtz)
+# Mentions
+- [@IkarosKurtz](https://github.com/IkarosKurtz) - [@repository](https://github.com/IkarosKurtz/tick-tack-toe-react)
