@@ -1,32 +1,21 @@
 # TIC TAC TOE
 
-## Demo
-
-Insert gif or link to demo
-
-## Tech Stack
-
-**Client:** React, Redux, TypeScript
-
-**Api:** Node, Express, Socket.io
-
 ## Getting Started
 
-To deploy this project run
+<h3>Installation</h3>
 
+1. Clone the repo:
 ```bash
-  $ npm i
-
-  $ npm run dev
+git clone https://github.com/Dream-Junk-Studios/Dream-Junk-Profiles-2.git
 ```
-
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
+3. Install packages
+```bash
+npm i
+```
+5. Run code
+```bash
+npm run dev
+```
 
 ## Authors
 
