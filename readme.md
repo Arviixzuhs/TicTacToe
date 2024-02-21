@@ -1,4 +1,4 @@
-# TIC TAC TOE
+# TIC TAC TOE 🕹️
 
 ## Getting Started
 
