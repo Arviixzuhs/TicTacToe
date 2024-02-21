@@ -6,7 +6,7 @@
 
 1. Clone the repo:
 ```bash
-git clone https://github.com/Dream-Junk-Studios/Dream-Junk-Profiles-2.git
+git clone https://github.com/Arviixzuhs/TicTacToe.git
 ```
 3. Install packages
 ```bash
