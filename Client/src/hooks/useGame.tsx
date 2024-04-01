@@ -158,7 +158,7 @@ export function useGame() {
     }
 
     // Para que acabe la animación del table antes de reiniciar el juego
-
+    setPlayer(players[0])
     setTimeout(resetBoard, 500)
   }
 
